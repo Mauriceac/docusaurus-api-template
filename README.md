@@ -19,6 +19,7 @@ There's an alternative plugin that uses Redoc:
 1. [Docusaurus](https://docusaurus.io/) installed on your computer. (For this tutorial we use the [docusaurus-template](https://github.com/VasylynaBurger/docusaurus-template).)
 2. A package manager, either [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) or [Yarn](https://yarnpkg.com/getting-started/install) package managers.
 3. A code editor, such as [VS Code](https://code.visualstudio.com/).
+4. An OAS file. We used a version of the famous [Swagger Petstore API](https://raw.githubusercontent.com/PaloAltoNetworks/docusaurus-openapi-docs/main/demo/examples/petstore.yaml).
 
 > **Tip**  
 > If you're feeling a bit lost during the tutorial, go into the `my-website` folder within this repository and take look at `my-website/docusaurus.config.ts` and `my-website/sidebar.ts`.
