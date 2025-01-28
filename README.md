@@ -2,6 +2,9 @@
 
 Many companies have their API reference guide separated from their product documentation or even the rest of their API documentation. But you can store and publish all your documentation along with API references guides using Docusaurus and a community-provided plugin.
 
+- Live demo: [https://mauriceac.github.io/docusaurus-api-template/docs/category/petstore-api](https://mauriceac.github.io/docusaurus-api-template/docs/category/petstore-api)
+- Template: [https://github.com/Mauriceac/docusaurus-api-template](https://github.com/Mauriceac/docusaurus-api-template)
+
 The plugins allow you to use OpenAPI Specification (OAS) files to generate API reference guides in your Docusaurus-generated documentation site.
 
 ![Demo video of Docusaurus-built documentation site with API reference guide](demo.gif)

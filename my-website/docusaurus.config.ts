@@ -10,15 +10,15 @@ const config: Config = {
   favicon: 'img/logo-icon.png',
 
   // Set the production url of your site here
-  url: 'https://docusaurus-template.github.io',
+  url: 'https://docusaurus-api-template.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docusaurus-template/',
+  baseUrl: '/docusaurus-api-template/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'VasylynaBurger', // Usually your GitHub org/user name.
-  projectName: 'docusaurus-template', // Usually your repo name.
+  organizationName: 'Mauriceac', // Usually your GitHub org/user name.
+  projectName: 'docusaurus-api-template', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -42,7 +42,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/VasylynaBurger/docusaurus-template',
+            'https://github.com/Mauriceac/docusaurus-api-template',
         },
         blog: {
           showReadingTime: true,
@@ -53,7 +53,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/VasylynaBurger/docusaurus-template',
+            'https://github.com/Mauriceac/docusaurus-api-template',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -89,7 +89,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Release notes', position: 'left'},
         {
-          href: 'https://github.com/VasylynaBurger/docusaurus-template',
+          href: 'https://github.com/Mauriceac/docusaurus-api-template',
           label: 'GitHub',
           position: 'right',
         },
