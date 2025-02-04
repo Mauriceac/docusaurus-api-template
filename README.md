@@ -26,16 +26,28 @@ There's an alternative plugin that uses Redoc:
 
 ## Step 1: Install Docusaurus plugin
 
-1. Go to the root folder of your Docusaurus project. In template we're using for this tutorial, it's the `my-website` folder.
-2. From the terminal, run your package manager with the following commands and options:
-   `yarn add docusaurus-plugin-openapi-docs`
-   OR
-   `npm install docusaurus-plugin-openapi-docs`
+1. From the terminal, go to the root folder of your Docusaurus project. For example, in template we're using for this tutorial, it's the `my-website` folder.
+   ```shell
+   cd my-website
+   ``` 
 
-3. From the terminal, run your package manager with the following commands and options:
-   `yarn add docusaurus-theme-openapi-docs`
+2. Install the plugin by running your package manager with the following commands and options:
+   ```shell
+   yarn add docusaurus-plugin-openapi-docs
+   ```
    OR
-   `npm install docusaurus-theme-openapi-docs`
+   ```shell
+   npm install docusaurus-plugin-openapi-docs
+   ```
+
+3. Install the theme by running your package manager with the following commands and options:
+   ```shell
+   yarn add docusaurus-theme-openapi-docs
+   ```
+   OR
+   ```shell
+   npm install docusaurus-theme-openapi-docs
+   ```
 
 ## Step 2: Prepare your OAS file
 
@@ -220,3 +232,6 @@ There's an alternative plugin that uses Redoc:
     ```
 2. If your web browser doesn't automatically open and show you the Docusaurus-generated site, open your web browser and go to `http://localhost:3000`.
 3. Check to see if the API reference guide was properly built in the site.
+
+
+> _Congratulations! You've set up an API reference guide within your Docusaurus site!_
