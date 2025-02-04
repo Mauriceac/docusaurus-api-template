@@ -68,7 +68,9 @@ There's an alternative plugin that uses Redoc:
    import type * as OpenApiPlugin from "docusaurus-plugin-openapi-docs";
    ```
 3. In `config` > `presets` > `classic` > `docs` section of the file, add:
-   `docItemComponent: "@theme/ApiItem", // Derived from docusaurus-theme-openapi`
+   ```ts
+   docItemComponent: "@theme/ApiItem", // Derived from docusaurus-theme-openapi
+   ```
    
 4. In the `config` section, add:
    
@@ -93,7 +95,7 @@ There's an alternative plugin that uses Redoc:
     ],
     themes: ["docusaurus-theme-openapi-docs"], // export theme components
     ```
-5. Change the `specPath` value so that it corresponds to name and path of your OAS file.
+5. Change the `specPath` value so that it corresponds to the name and path of your OAS file.
 
 ## Step 4: Set up the navbar and sidebar
 
