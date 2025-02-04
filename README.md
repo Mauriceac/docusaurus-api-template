@@ -22,7 +22,7 @@ There's an alternative plugin that uses Redoc:
 4. An OAS file. We used a version of the famous [Swagger Petstore API](https://raw.githubusercontent.com/PaloAltoNetworks/docusaurus-openapi-docs/main/demo/examples/petstore.yaml).
 
 > **Tip**  
-> If you're feeling a bit lost during the tutorial, go into the `my-website` folder within this repository and take look at `my-website/docusaurus.config.ts` and `my-website/sidebar.ts`.
+> If you're feeling a bit lost during the tutorial, go into the `my-website` folder within this [repository](https://github.com/Mauriceac/docusaurus-api-template/tree/main) and take look at `my-website/docusaurus.config.ts` and `my-website/sidebar.ts`.
 
 ## Step 1: Install Docusaurus plugin
 
@@ -194,7 +194,12 @@ There's an alternative plugin that uses Redoc:
    ```
 
 ## Step 6: Generate the API reference documentation
-1.  From the terminal, run the following command:
+1.  From the terminal, go to your Docusaurus project folder. 
+    For example:
+    ```shell
+    cd my-website
+    ```
+2.  Run the following command:
     ```shell
     yarn docusaurus gen-api-docs all
     ```
@@ -202,7 +207,7 @@ There's an alternative plugin that uses Redoc:
     ```shell
     npm run docusaurus gen-api-docs all   
     ```
-1. Ensure that there are no errors. If you encounter errors, check the error message and ensure all paths in the code are correct.
+3. Ensure that there are no errors. If you encounter errors, check the error message and ensure all paths in the code are correct.
 
 ## Step 7: Run Docusaurus
 1. From the terminal, run the following command:
