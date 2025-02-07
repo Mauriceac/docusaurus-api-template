@@ -1,4 +1,16 @@
-# How to set up an API reference guide with Docusaurus
+# How to set up an API reference guide with Docusaurus <!-- omit from toc -->
+
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Step 1: Install Docusaurus plugin](#step-1-install-docusaurus-plugin)
+- [Step 2: Prepare your OAS file](#step-2-prepare-your-oas-file)
+- [Step 3: Set up the plugin \& theme](#step-3-set-up-the-plugin--theme)
+- [Step 4: Set up the navbar \& sidebar](#step-4-set-up-the-navbar--sidebar)
+- [Step 5: Add CSS to stylize sidebar (Optional)](#step-5-add-css-to-stylize-sidebar-optional)
+- [Step 6: Generate the API reference documentation](#step-6-generate-the-api-reference-documentation)
+- [Step 7: Run Docusaurus](#step-7-run-docusaurus)
+
+## Introduction
 
 Many companies have their API reference guide separated from their product documentation or even the rest of their API documentation. But you can store and publish all your documentation along with API references guides using Docusaurus and a community-provided plugin.
 
