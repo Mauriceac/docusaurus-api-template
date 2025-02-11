@@ -1,5 +1,5 @@
 import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
-import petstoreSidebar from "./docs/petstore/sidebar";
+
 /**
  * Creating a sidebar enables you to:
  - create an ordered group of docs
@@ -25,7 +25,7 @@ const sidebars: SidebarsConfig = {
           "This is a sample server Petstore server. You can find out more about Swagger at http://swagger.io or on irc.freenode.net, #swagger. For this sample, you can use the api key special-key to test the authorization filters.",
         slug: "/category/petstore-api",
       },
-      items: petstoreSidebar,
+      items: require("./docs/petstore/sidebar.js")
     },
   ],
 };
