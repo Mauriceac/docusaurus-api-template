@@ -83,7 +83,7 @@ There's an alternative plugin that uses Redoc:
 >
 > - The OAS file can be either in YAML or JSON format.  
 > - You can also set up the plugin to read an online OAS file.
-> - For this tutorial, we used [`petstore.yaml` file provided by the Palo Alto Docusaurus plugin](https://github.com/PaloAltoNetworks/docusaurus-openapi-docs/blob/main/demo/examples/petstore.yaml).
+> - For this tutorial, we used the [`petstore.yaml` file provided by the Palo Alto Docusaurus plugin](https://github.com/PaloAltoNetworks/docusaurus-openapi-docs/blob/main/demo/examples/petstore.yaml).
 
 ## Step 3: Set up the plugin & theme
 
